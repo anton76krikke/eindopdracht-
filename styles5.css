@@ -1,0 +1,65 @@
+.burger{
+   max-width: 60%;
+   max-height: auto;
+
+}
+.burger:hover{
+    opacity :0.4;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    
+   
+    
+  }
+  .dropdown-content {
+    
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    visibility: hidden;
+   
+  }
+  
+    
+
+  
+  .dropdown-content li {
+    display: block;
+    color: #080707;
+    padding: 5px;
+    text-decoration: none;
+  }
+  .dropdown-content li:hover {
+   font-size: x-large;
+    
+  }
+  .geel {
+    background-color: yellow; 
+    padding: 2%;
+    margin-right: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+    
+ }
+ .wit{
+    background-color:antiquewhite;
+    padding: 1%;
+   margin-right: auto;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+}
+
+.groen{
+    background-color:green;
+    padding: 1%;
+   margin-right: auto;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+}
+.blauw{
+    background-color:blue;
+    padding: 1%;
+   margin-right: auto;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+}
